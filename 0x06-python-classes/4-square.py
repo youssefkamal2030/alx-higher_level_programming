@@ -17,10 +17,12 @@ class Square:
         self.__size = size
 
     def area(self):
+        """Return the current area of the square."""
         return (self.__size * self.__size)
 
     @property
     def size(self):
+        """Get/set the current size of the square."""
         return (self.__size)
 
     @size.setter
